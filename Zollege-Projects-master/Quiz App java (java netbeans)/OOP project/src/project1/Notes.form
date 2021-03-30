@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-12,0,0,2,-43"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="304" max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="266" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" pref="107" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="0" pref="30" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="661" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="376" max="32767" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Biology Notes"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Cells:&#xa;All living organisms are made up of cells and new cells are produced when live cells divide. The cell is the smallest unit of life in an organism. The cell lives and, as a result, the organism lives. Whatever an organism does for survival it does for the survival of its cells.&#xa;&#xa;The mitochondria are called the &#x201c;powerhouses&#x201d; of the cell. This is where cellular respiration occurs. The end product of cellular respiration is energy. Muscle and liver cells have many mitochondria and produce a lot of energy. The mitochondria have 2 membranes. The inner membrane is folded. Here, at the folds, is where the energy is releases. The more folds it has the more energy is released. Foldings increase during exercise and activity while they decrease during rest.&#xa; &#xa;In general:    &#xa; 1. The aerobic steps of respiration occur here.&#xa; 2. 36 of the 38 ATPs (energy molecules) from one molecule of glucose are produced in the mitochondrion.&#xa; 3. Liver, muscle and nerve cells are rich in mitochondria.&#xa; 4. Bone and fat cells have low numbers of mitochondria.&#xa; 5. Root hair cells and meristematic cells of plants have large numbers of mitochondria.&#xa; 6. Stem and root ground tissue cells of plants are low in mitochondria.&#xa;&#xa;visit:leavingbio.net&#xa;&#xa;&#xa;Blood:&#xa;is made up of four components plasma,red,white and platelets.&#xa;Plasma is a pale yellow sticky liquid. It makes up 55% of the blood&#x2019;s volume. The components of plasma are water 92%, dissolved protein 8%, glucose, amino acids, vitamins, minerals, urea, uric acid, CO2, hormones, antibodies. Plasma carries dissolved materials such as glucose, amino acids, minerals, vitamins, salts, carbon dioxide, urea, and hormones. It also carries heat energy.&#xa;&#xa;Red Blood Cells, also called erythrocytes, are tiny biconcave disc-shaped cells. They do not have a nucleus or mitochondria. Their cytoplasm is rich in haemoglobin. O2 binds to the iron in haemoglobin. Red blood cells are made in the bone marrow. They survive for about four months. They are destroyed and recycled by the liver and spleen. They are destroyed because they have to constantly change shape to pass through narrow blood vessels. When they die the haemoglobin is stored in the liver and used to make new blood cells in the bone marrow. They are very small. There are about 5 million red blood cells in 1 cc. of blood. The rest that is not stored is converted into bile pigments.&#xa;&#xa;&#xa;White Blood Cells (leucocytes) are colourless cells and possess a nucleus. They function in defending the body against pathogens. Some &#x2018;feed&#x2019; on pathogens by phagocytosis. These white blood cells are called phagocytes. Others, the lymphocytes produce antibodies, the specific defense proteins. They are made by the bone marrow and lymphatic tissue.&#xa;&#xa;Platelets, also called thrombocytes, are tiny fragments of large bone marrow cells. They carry specialised blood clotting chemicals. The clotting chemicals are released where blood and lymph vessels are injured. A nucleus is not present in platelets.&#xa;&#xa;&#xa;&#xa;leavingbio.net/ go onto this website to read more...."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

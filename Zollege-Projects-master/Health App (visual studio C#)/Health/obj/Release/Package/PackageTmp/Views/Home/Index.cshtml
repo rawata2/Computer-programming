@@ -1,0 +1,89 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <img src="/Content/leaf.png" width="250" height="150" />
+   
+    <h1>Welcome to Health & Power </h1>
+    
+
+    <br>
+
+
+
+    <script>
+
+var slideimages = new Array()
+slideimages[0] = new Image()
+slideimages[0].src = "/Content/img1.png"
+slideimages[1] = new Image()
+slideimages[1].src = "/Content/img2.png"
+slideimages[2] = new Image()
+slideimages[2].src = "/Content/img3.png"
+slideimages[3] = new Image()
+slideimages[3].src = "/Content/img4.png"
+slideimages[4] = new Image()
+slideimages[4].src = "/Content/img5.png"
+slideimages[5] = new Image()
+slideimages[5].src = "/Content/img6.png"
+slideimages[6] = new Image()
+slideimages[6].src = "/Content/img7.png"
+
+    </script>
+
+
+    <center><img src="product.gif" id="slide" width="70%" height="400" /></center>
+
+    <script type="text/javascript">
+
+
+var step=0
+
+function slideit(){
+
+ if (!document.images)
+  return
+ document.getElementById('slide').src = slideimages[step].src
+ if (step<6)
+  step++
+ else
+  step=0
+ setTimeout("slideit()",2500)
+}
+
+slideit()
+
+    </script>
+
+
+
+    <p class="lead">Health & Power is a website where you can buy health products, save your personal details and search different location all over the country</p>
+    <p><a href="https://thehealthstore.ie/" class="btn btn-primary btn-lg">Read More &raquo;</a></p>
+
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Top Health Tips</h2>
+        <center><img src="/Content/health2.png" width="100%" height="100%" /></center>
+        <p>
+            Drink Some Water, Especially Before Meals.
+        </p>
+        <p><a class="btn btn-default" href="https://thehealthstore.ie/">Read more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+
+        <h2>Yoga and Exercise</h2>
+        <center><img src="/Content/health1.png" width="100%" height="100%" /></center>
+        <p>  Bend your elbows, lift heels off floor, and rest knees.</p>
+        <p><a class="btn btn-default" href="https://thehealthstore.ie/">Read More &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+
+        <h2>Personal Care</h2>
+        <center><img src="/Content/health3.png" width="100%" height="100%" /></center>
+        <p> Always read lables before taking any medicine.</p>
+        <p><a class="btn btn-default" href="https://thehealthstore.ie/">Read More &raquo;</a></p>
+    </div>
+</div>

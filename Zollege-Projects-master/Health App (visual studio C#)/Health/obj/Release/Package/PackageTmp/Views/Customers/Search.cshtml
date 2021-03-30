@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>Search for Customer by Id e.g 1</h2>
+<br>
+<br>
+
+
+
+
+<div class="col-md-10">
+    <input type="text" id="CustomerId" size="20" />
+    <input type="submit" name="SearchButton" id="SearchButton" value="Search" />
+</div>
+<br />
+
+<div id="divProcessing">
+    <p>Processing, Please Wait...<img src="../../Content/ajax-loader.gif" height="50"></p>
+</div>
+<br />
+<div id="divResult"></div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#divProcessing").hide();
+        $('#SearchButton').click(function () {
+            search();
+
+
+      });
+	  });
+
+      function search() {
+	  $("#divResult").empty();
+	  $("#divProcessing").show();
+	  var customerId = $("#CustomerId").val();
+	 var url = "../api/Customers/" + customerId;
+	  $.ajax({
+	      url: url,
+	      type: "GET",
+	      dataType: "json",
+	      success: function (resp) {
+
+	          // hide busy gif:
+	          $("#divProcessing").hide();
+	          $("<h3>Results</h3>").appendTo("#divResult");
+	          $("#divResult").append("<p>Name: " + resp.Name + "<br>Gender:" + resp.Gender + "<br>PhoneNumber:" + resp.PhoneNumber + "<br>Age:" + resp.AgeInYears + "<br/>");
+	          $("divResult").append("Products:<br/>");
+	          for (var i = 0; i < resp.Products.length; i++) {
+	              $("#divresult").append(resp.Products)[i].Name + "" + resp.Products[i].Description + ("<br/>");
+	          }
+	          $("#divResult").append("</p>");
+	      }
+	  })
+	  }
+
+    </script>
+}

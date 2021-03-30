@@ -1,0 +1,169 @@
+@import http://fonts.googleapis.com/css?family=Raleway;
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+div#overlay{
+  position: absolute;
+  top: 0;
+  left:25%;
+  width:50%;
+  border: 2px solid black;
+  background: #e4f5d3;
+  transition: opacity 500ms;
+  opacity: 1;
+  z-index:1;
+}
+span {
+color:red
+}
+#success{
+	color:green;
+}
+a{
+	
+width:100%;
+padding:15px;
+font-family:raleway
+
+}
+h1 {
+width:100%;
+font-family:raleway
+}
+h2 {
+background-color:#FEFFED;
+text-align:center;
+border-radius:10px 10px 0 0;
+margin:-10px -40px;
+padding:15px
+}
+hr {
+border:0;
+border-bottom:1px solid #ccc;
+margin:10px -40px;
+margin-bottom:30px
+}
+
+#add{
+width:300px;
+float:left;
+border-radius:10px;
+font-family:raleway;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+}
+
+table,th,td {
+    border: 0px solid black;
+    border-collapse: collapse;
+    padding-bottom:100px;
+}
+th, td {
+	    padding: 5px;
+}
+input[type=text],input[type=password],input[type=integer],input[type=select]{
+width:99.5%;
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:16px;
+font-family:raleway
+}
+input[type=submit] {
+width:100%;
+color:black;
+border:2px solid grey;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-top:15px;
+}
+input[type=submit]#abort {
+width:45%;
+color:black;
+background-color: green;
+border:2px solid green;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-top:15px;
+}
+input[type=submit]#confirm {
+width:45%;
+margin:2%;
+color:black;
+background-color: red;
+border:2px solid red;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-top:15px;
+}
+select{
+width:99.5%;
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:16px;
+font-family:raleway
+}
+#profile {
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7
+}
+#logout {
+float:right;
+padding:5px;
+border:dashed 1px gray
+}
+a {
+text-decoration:none;
+color:#6495ed
+}
+i {
+color:#6495ed
+}
+#container {
+  width: 30%;
+  position:absolute;
+  left:60px;
+  top:50px;
+}
+
+#container div {
+  float: left;
+  width: 95%;
+}
+#add_head{
+
+position: absolute;
+    left: 60px;
+    top: 50px;
+}
+#edit_head{
+
+position: absolute;
+    left: 60px;
+    top: 480px;
+
+
+}
+#delete{
+  margin-top: 0px;
+  font-size: 12px;
+  padding:0;
+  width:100%;
+color:black;
+cursor:pointer;
+border:0px solid grey;
+background-color: white;
+cursor:pointer;
+text-decoration: underline;
+}

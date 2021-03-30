@@ -1,0 +1,156 @@
+/*
+Author : Mayank
+Date : 30/11/2014
+Title : Master CSS 
+
+*/
+/* Layout Section Starts */
+body {
+	padding:0px;
+	margin:0px;
+	background-color:#E6E6FA;
+	
+}
+header {
+    background-color:#2F4F4F;
+    
+	padding:5px; 
+	height:75px
+}
+#logo {
+	float:left;
+	width:400px;
+	color:white;    
+}
+#nav {
+	float:right;
+	width:600px;
+    padding:5px; 
+	text-align:center;
+	
+}
+
+#nav ul li {
+	display:inline;
+	padding:20px;
+	
+}
+#nav ul li a{
+	text-decoration:none;
+	color: white;
+	
+}
+#nav ul li a:hover {
+	text-decoration:none;
+	color:red;
+}
+#nav ul li a:visited{
+	text-decoration:none;
+	color:white;
+} 
+
+
+			
+			
+					
+section {
+    background-color:#E6E6FA;
+	float:left;
+    padding:10px; 
+}
+footer {
+    background-color:#2F4F4F;
+    color:white;
+    text-align:center;
+	padding:5px; 
+	
+
+	
+}
+#slider{
+	background-color:black;
+	height:350px;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+.content {
+	width:40%;
+	float:left;
+    background-color:#E6E6FA;
+	color:b;
+    text-align:justify;
+    padding:2%; 
+	margin:2%;
+}
+.pageContent {
+	background-color:#E6E6FA;
+	float:left;
+    color:black;
+    text-align:justify;
+    padding:2%; 
+	margin:2%;
+}
+
+.pageContact {
+	width:59%;
+ 	background-color:#E6E6FA;
+	color:black;
+   text-align:justify;
+	
+ }
+ .serif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#map-canvas {
+ margin: 0px;
+ padding: 0px;
+ height:37%;
+ width:430px;
+ 
+}
+#footer {
+margin: 0px auto;
+width: 850px;
+}    
+#footer .social {
+padding: 30px 0;
+width: 425px;
+text-align: left;
+float:left;
+}
+
+    
+
+ 
+ 
+ 
+ 
+ 
+.jssorb21 div, .jssorb21 div:hover, .jssorb21 .av
+            {
+                background: url(img/b21.png) no-repeat;
+                overflow:hidden;
+                cursor: pointer;
+            }
+            .jssorb21 div { background-position: -5px -5px; }
+            .jssorb21 div:hover, .jssorb21 .av:hover { background-position: -35px -5px; }
+            .jssorb21 .av { background-position: -65px -5px; }
+            .jssorb21 .dn, .jssorb21 .dn:hover { background-position: -95px -5px; }
+  
+            .jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn
+            {
+            	position: absolute;
+            	cursor: pointer;
+            	display: block;
+                background: url(img/a21.png) center center no-repeat;
+                overflow: hidden;
+            }
+            .jssora21l { background-position: -3px -33px; }
+            .jssora21r { background-position: -63px -33px; }
+            .jssora21l:hover { background-position: -123px -33px; }
+            .jssora21r:hover { background-position: -183px -33px; }
+            .jssora21ldn { background-position: -243px -33px; }
+            .jssora21rdn { background-position: -303px -33px; }
